@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f9;
+}
+
+#app {
+    margin-top: 50px;
+}
+
+#cards {
+    text-align: center; /* Center content within cards container */
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.favorite-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.favorite-header h2 {
+    margin: 0;
+}
+
+.favorite-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.restart-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    height: 45px;
+}
+
+.restart-button:hover {
+    background-color: #0056b3;
+}
+
+.car-type-image {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto 10px; /* Center image and add space below */
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+.selection-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.selection-section {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.card {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.2s;
+    width: 200px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    margin-top: 10px;
+    font-weight: bold;
+}
