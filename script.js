@@ -9,14 +9,16 @@ const carTypes = {
         { id: 2, image: "q5.jpg", name: "Audi Q5", specs: "2.0L Turbo AWD <br>261hp, 273lbft, 4000 lbs<br> $43,300" },
         { id: 3, image: "modely.jpg", name: "Tesla Model Y", specs: "Electric AWD <br>384hp, 376lbft, 4416 lbs<br> $52,990" },
         { id: 4, image: "macan.jpg", name: "Porsche Macan", specs: "2.0L Turbo AWD <br>261hp, 295lbft, 3990 lbs<br> $57,500" },
+        { id: 22, image: "CRV.jpg", name: "Honda CRV", specs: "2.0L Hybrid FWD/AWD <br>200hp, 100lbft, 4000 lbs<br> $40,000" },
         { id: 5, image: "r2.jpg", name: "Rivian R2", specs: "Electric AWD <br>600hp, 600lbft, 5000 lbs<br> $72,500" },
+        { id: 23, image: "hrv.jpg", name: "Honda HRV", specs: "2.0L FWD/AWD <br>150hp, 100lbft, 3500 lbs<br> $30,000" },
+        { id: 24, image: "corolla_cross.jpg", name: "Toyota Corolla Cross", specs: "1.6L FWD/AWD <br>150hp, 100lbft, 3500 lbs<br> $30,000" },
     ],
-    Crossovers: [
-        { id: 1, image: "x3.jpg", name: "BMW X3", specs: "2.0L Turbo AWD <br>248hp, 258lbft, 4030 lbs<br> $43,700" },
-        { id: 1, image: "x3.jpg", name: "BMW X3", specs: "2.0L Turbo AWD <br>248hp, 258lbft, 4030 lbs<br> $43,700" },
-        { id: 1, image: "x3.jpg", name: "BMW X3", specs: "2.0L Turbo AWD <br>248hp, 258lbft, 4030 lbs<br> $43,700" },
+    // Crossovers: [
+    //     { id: 1, image: "x3.jpg", name: "Honda HRV", specs: "2.0L Turbo AWD <br>248hp, 258lbft, 4030 lbs<br> $43,700" },
+    //     { id: 1, image: "x3.jpg", name: "Toyota Corolla Cross", specs: "2.0L Turbo AWD <br>248hp, 258lbft, 4030 lbs<br> $43,700" },
 
-    ],
+    // ],
     Sedans: [
         { id: 6, image: "3series.jpg", name: "BMW 3 Series Sedan", specs: "2.0L Turbo RWD <br>255hp, 294lbft, 3825 lbs<br> $43,800" },
         { id: 7, image: "is350.jpg", name: "Lexus IS", specs: "3.5L V6 AWD <br>311hp, 280lbft, 3725 lbs<br> $43,050" },
@@ -56,10 +58,10 @@ const carTypePics = {
         name: 'Hatchback',
         image: 'golf.jpg' // Replace with the actual image path
     },
-    Crossovers: {
-        name: 'Crossovers',
-        image: 'cross.jpg' // Replace with the actual image path
-    },
+    // Crossovers: {
+    //     name: 'Crossovers',
+    //     image: 'cross.jpg' // Replace with the actual image path
+    // },
     Performance: {
         name: 'Performance',
         image: 'Performance.jpg' // Replace with the actual image path
