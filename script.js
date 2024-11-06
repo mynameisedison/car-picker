@@ -65,7 +65,7 @@ const carTypePics = {
    },
     Performance: {
         name: 'Performance',
-        image: 'Performance.jpg' // Replace with the actual image path
+        image: 'performance.jpg' // Replace with the actual image path
    },
     Hybrids: {
         name: 'Hybrids',
