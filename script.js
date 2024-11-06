@@ -47,7 +47,6 @@ const carTypes = {
         { id: 20, image: "integratypes.jpg", name: "Acura Integra Type S", specs: "2.0L Turbo FWD <br>320 hp, 310 lb-ft, 3219lbs<br> $53,795", class: "Performance"},
         { id: 25, image: "911.jpg", name: "Porsche 911", specs: "Engine <br>379 hp, 331  lb-ft, 3354lbs<br> $116,050", class: "Performance"},
         { id: 26, image: "supra.jpg", name: "Toyota Supra", specs: "Engine <br>379 hp, 369  lb-ft, 3354lbs<br> $65,000", class: "Performance"},
-        { id: 15, image: "gti.jpg", name: "VW Golf GTI", specs: "2.0L Turbo FWD <br>241 hp, 273 lb-ft, 3250 lbs<br> $30,530", class: "Hatchback"},
     ], 
 };
 
