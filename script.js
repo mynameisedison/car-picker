@@ -76,20 +76,23 @@ const carTypePics = {
 
 const priceRanges = {
     '$20,000 - $40,000': [
-        carTypes.Sedans[4], // Toyota Corolla Hybrid 
-        carTypes.Sedans[5], // Honda Civic sedan 
+        carTypes.Sedans[3], // Toyota Corolla Hybrid 
+        carTypes.Sedans[4], // Honda Civic sedan 
+        carTypes.Hybrids[2], // civic hybrid sedan
+        carTypes.Hybrids[0], // civic hybrid hatch 
+        carTypes.Sedans[5], //Camry
+        carTypes.SUVs[7], //corolla corss
         carTypes.Hatchbacks[0], // Toyota Corolla Hatchback 
-        carTypes.Hatchbacks[2], // Honda Civic Hatchback 
-        carTypes.Hatchbacks[1], // Toyota Prius 
+        carTypes.Hatchbacks[1], // Honda Civic Hatchback 
+        carTypes.Hybrids[1], // Toyota Prius 
         carTypes.Performance[2], // Toyota GR86 
-        carTypes.Sedans[6], //Camry
-        carTypes.Hatchbacks[3], // VW Golf GTI 
-        carTypes.Hatchbacks[5], // civic hybrid hatchback 
-        carTypes.Sedans[7] // civic hybrid sedan
+        carTypes.Hatchbacks[2], // VW Golf GTI 
+        carTypes.Hatchbacks[3], // mazda 3
     ],
     '$40,000 - $50,000': [
         carTypes.SUVs[0], // BMW X3 ($43,700)
         carTypes.SUVs[1], // Audi Q5 ($43,300)
+        carTypes.SUVs[8], //lexus rx350
         carTypes.Sedans[0], // BMW 3 Series Sedan ($43,800)
         carTypes.Sedans[1], // Lexus IS ($43,050)
         carTypes.Performance[1], // VW Golf R ($44,740)
