@@ -44,9 +44,9 @@ const carTypes = {
         { id: 21, image: "gr86.jpg", name: "Toyota GR86", specs: "2.4L RWD <br>228 hp, 184 lb-ft, 2838 lbs<br> $28,400", class: "Performance"},
         { id: 17, image: "grc.jpg", name: "Toyota GR Corolla", specs: "1.6L Turbo AWD <br>300 hp, 195 lb-ft, 3276 lbs<br> $46,650", class: "Performance"},
         { id: 19, image: "typeR.jpg", name: "Honda Civic Type R", specs: "2.0L Turbo FWD <br>315 hp, 310 lb-ft, 3188lbs<br> $46,690", class: "Performance"},
-        { id: 20, image: "integratypes.jpg", name: "Acura Integra Type S", specs: "2.0L Turbo FWD <br>320 hp, 310 lb-ft, 3219lbs<br> $53,795", class: "Performance"},
-        { id: 25, image: "911.jpg", name: "Porsche 911", specs: "Engine <br>379 hp, 331  lb-ft, 3354lbs<br> $116,050", class: "Performance"},
-        { id: 26, image: "supra.jpg", name: "Toyota Supra", specs: "Engine <br>379 hp, 369  lb-ft, 3354lbs<br> $65,000", class: "Performance"},
+        { id: 20, image: "integratypes.jpg", name: "Acura Integra Type S", specs: "2.0L Turbo FWD <br>320 hp, 310 lb-ft, 3219 lbs<br> $53,795", class: "Performance"},
+        { id: 25, image: "caymanblue.jpg", name: "Porsche Cayman/Boxster", specs: "Inline 6-Cyl Engine <br>350 hp, 309  lb-ft, 3157 lbs<br> $86,795", class: "Performance"},
+        { id: 26, image: "supra.jpg", name: "Toyota Supra", specs: "Inline 6-Cyl Engine <br>382 hp, 368 b-ft, 3411lbs<br> $59,685", class: "Performance"},
     ], 
 };
 
