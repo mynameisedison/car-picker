@@ -6,15 +6,15 @@ const cars = [
 const carTypes = {
     SUVs: [
         { id: 1, image: "x3.jpg", name: "BMW X3", specs: "2.0L Turbo AWD <br>248 hp, 258 lb-ft, 4030 lbs<br> $43,700", class: "SUV"},
-        { id: 2, image: "q5.jpg", name: "Audi Q5", specs: "2.0L Turbo AWD <br>261 hp, 273 lb-ft, 4000 lbs<br> $43,300", class: "SUV"},
+        { id: 2, image: "audiq5.jpg", name: "Audi Q5", specs: "2.0L Turbo AWD <br>261 hp, 273 lb-ft, 4000 lbs<br> $43,300", class: "SUV"},
+        { id: 24, image: "lexusNX.jpg", name: "Lexus NX250", specs: "2.5-liter four-cylinder FWD/AWD <br>205 hp, 184 lbft, 3700 lbs<br> $40,965", class: "SUV"},
         { id: 3, image: "modely.jpg", name: "Tesla Model Y", specs: "Electric AWD <br>384 hp, 376 lb-ft, 4416 lbs<br> $52,990", class: "SUV"},
         { id: 4, image: "macan.jpg", name: "Porsche Macan", specs: "2.0L Turbo AWD <br>261 hp, 295 lb-ft, 3990 lbs<br> $57,500", class: "SUV"},
+        { id: 24, image: "lexusRX.jpg", name: "Lexus RX350", specs: "2.5L FWD/AWD <br>275 hp, 317 lb-ft, 4133 lbs<br> $50,325", class: "SUV"},
         { id: 5, image: "r2.jpg", name: "Rivian R2", specs: "Electric AWD <br>600 hp, 600 lb-ft, 5000 lbs<br> $72,500", class: "SUV"},
         { id: 22, image: "CRV.jpg", name: "Honda CRV", specs: "2.0L Hybrid FWD/AWD <br>190 hp, 179 lb-ft, 3616   lbs<br> $35,200", class: "SUV"},
         { id: 23, image: "hrv.jpg", name: "Honda HRV", specs: "2.0L FWD/AWD <br>150 hp, 100 lb-ft, 3500 lbs<br> $30,000", class: "SUV"},
         { id: 24, image: "corolla_cross.jpg", name: "Toyota Corolla Cross", specs: "1.6L FWD/AWD <br>150 hp, 100 lb-ft, 3500 lbs<br> $30,000", class: "SUV"},
-        { id: 24, image: "lexusRX.jpg", name: "Lexus RX350", specs: "2.5L FWD/AWD <br>275 hp, 317 lb-ft, 4133 lbs<br> $50,325", class: "SUV"},
-        { id: 24, image: "lexusNX.jpg", name: "Lexus NX250", specs: "2.5-liter four-cylinder FWD/AWD <br>205 hp, 184 lbft, 3700 lbs<br> $40,965", class: "SUV"},
 
     ],
     Sedans: [
@@ -82,7 +82,8 @@ const priceRanges = {
         carTypes.Hybrids[2], // civic hybrid sedan
         carTypes.Hybrids[0], // civic hybrid hatch 
         carTypes.Sedans[5], //Camry
-        carTypes.SUVs[7], //corolla corss
+        carTypes.SUVs[8], //corolla corss
+        carTypes.SUVs[7], //hrv
         carTypes.Hatchbacks[0], // Toyota Corolla Hatchback 
         carTypes.Hatchbacks[1], // Honda Civic Hatchback 
         carTypes.Hybrids[1], // Toyota Prius 
@@ -93,7 +94,8 @@ const priceRanges = {
     '$40,000 - $50,000': [
         carTypes.SUVs[0], // BMW X3 ($43,700)
         carTypes.SUVs[1], // Audi Q5 ($43,300)
-        carTypes.SUVs[8], //lexus rx350
+        carTypes.SUVs[2], //lexus nx350
+        carTypes.SUVs[2], // Tesla Model Y ($52,990)
         carTypes.Sedans[0], // BMW 3 Series Sedan ($43,800)
         carTypes.Sedans[1], // Lexus IS ($43,050)
         carTypes.Performance[1], // VW Golf R ($44,740)
@@ -101,11 +103,11 @@ const priceRanges = {
         carTypes.Performance[4], // Honda Civic Type R ($46,690)
     ],
     '$50,000 - $60,000+': [
-        carTypes.SUVs[2], // Tesla Model Y ($52,990)
+        carTypes.SUVs[5], //lexus rx350
         carTypes.SUVs[3], // Porsche Macan ($57,500)
         carTypes.Performance[0], // Audi RS3 Sedan ($62,300)
         carTypes.Performance[5], // Acura Integra Type S ($53,795)
-        carTypes.SUVs[4]
+        carTypes.SUVs[6] //r2
     ]
 };
 
