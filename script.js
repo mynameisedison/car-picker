@@ -13,7 +13,9 @@ const carTypes = {
         { id: 22, image: "CRV.jpg", name: "Honda CRV", specs: "2.0L Hybrid FWD/AWD <br>190 hp, 179 lb-ft, 3616   lbs<br> $35,200", class: "SUV"},
         { id: 23, image: "hrv.jpg", name: "Honda HRV", specs: "2.0L FWD/AWD <br>150 hp, 100 lb-ft, 3500 lbs<br> $30,000", class: "SUV"},
         { id: 24, image: "corolla_cross.jpg", name: "Toyota Corolla Cross", specs: "1.6L FWD/AWD <br>150 hp, 100 lb-ft, 3500 lbs<br> $30,000", class: "SUV"},
-        { id: 24, image: "lexus_rx.jpg", name: "Lexus RX350", specs: "2.5L FWD/AWD <br>275 hp, 317 lb-ft, 4133 lbs<br> $50,325", class: "SUV"},
+        { id: 24, image: "lexusRX.jpg", name: "Lexus RX350", specs: "2.5L FWD/AWD <br>275 hp, 317 lb-ft, 4133 lbs<br> $50,325", class: "SUV"},
+        { id: 24, image: "lexusRX.jpg", name: "Lexus NX250", specs: "2.5-liter four-cylinder FWD/AWD <br>205 hp, 184 lbft, 3700 lbs<br> $40,965", class: "SUV"},
+
     ],
     Sedans: [
         { id: 6, image: "3series.jpg", name: "BMW 3 Series", specs: "2.0L Turbo RWD <br>255 hp, 294 lb-ft, 3825 lbs<br> $43,800", class: "Sedan"},
